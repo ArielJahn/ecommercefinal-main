@@ -4,7 +4,7 @@
 
     @if(isset($listaCategoria) && count($listaCategoria) > 0)
         <ul> 
-            <li><a href="{{ route('categoria')}}">Todas🌼</a></li>
+            <li><a href="{{ route('categoria')}}">Todos🌼</a></li>
             @foreach($listaCategoria as $cat)
                 <li><a href="{{ route('categoria_por_id', ['idcategoria' => $cat->id])  }}">{{$cat->categoria}}</a></li>
             @endforeach
