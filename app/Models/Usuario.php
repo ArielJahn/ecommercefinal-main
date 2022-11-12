@@ -6,5 +6,5 @@ class Usuario extends RModel
 {
    protected $table = "usuarios";
 
-   protected $fillable = ['email', 'cpf', 'password', 'nome'];
+   protected $fillable = ['login', 'cpf', 'password', 'nome'];
 }
