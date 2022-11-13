@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Support\Facades\DB; //uso de transação
 use Illuminate\Http\Request;
 use App\Models\Usuario;
 use App\Models\Endereco;
